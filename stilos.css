@@ -1,0 +1,248 @@
+html {
+    background-color: hsl(180, 50%, 98%)
+  }
+
+h1{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#logo{
+    width: 2%;
+    padding: 20px;
+    padding: 10px; margin: 10px; 
+    float: left;
+}
+
+#pieImg{
+   
+    position:absolute;
+    left: 100px;       
+}
+
+#pieImgUno{    
+   
+    position:relative;
+    left: 100px;
+}
+
+#lintelImgUno{    
+    position:relative;
+    left: -10px;
+    
+    /*left: -285px;
+    bottom: 355px;*/
+}
+
+#lintelImgDos{    
+    position:relative;
+    bottom: 310px;
+}
+
+#lintelImgTres{    
+    position:relative;
+    bottom: 252px;
+    left: -40px;
+}
+
+#lintelImgCuatro{    
+    position:relative;
+    bottom: 118px;
+    left: -80px;
+}
+
+#lintelImgCinco{    
+    position:relative;
+    bottom: 168px;
+    left: -124px;
+}
+
+#lintelImgSeis{    
+    position:relative;
+    bottom: 168px;
+    left: -132px;
+}
+
+#lintelImgSiete{    
+    position:relative;
+    bottom: 57px;
+    left: -211px;
+}
+
+#lintelImgOcho{    
+    position:relative;
+    bottom: 57px;
+    left: -217px;
+}
+
+.ocultar{
+    display: none;
+}
+
+#ganador{
+    display: none;
+    height: 40;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(14, 14, 14); 
+    color: #efef0d;   
+}
+
+/*INTERIOR LAS LETRAS SALIDAS*/
+#salida{
+    position:relative;
+    width: 90%;
+    margin: auto;
+    height: 30%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(44, 83, 210);
+    font-size: 3rem;
+    color: #f3f6f9;
+    left: -190px;
+    top: 100px; 
+    border-radius: .8rem;
+}
+/*-------*/
+.lado1{
+    float: left;
+    width: 50%;
+}
+.lado2{
+    float: right;
+    width: 40%;
+}
+
+#contenedorPalabra{
+    display: flex;
+    width: 45%;
+    margin: auto;
+    height: 30%;
+    padding: 5px;
+    background-color: white;
+    font-size: 1rem;
+    color: #0a3871;
+    
+}
+#letra{
+    position:relative;
+    text-align: center;
+    padding: 10px;    
+    font-size: 40px;
+    width:250px;
+    height:25px;
+    top: 200px;
+    left: -200px;     
+}
+
+/*boton*/
+#comprobar{
+    position:relative;
+    font-size: 1rem;
+    margin: .5rem ;
+    width: 7rem;
+    min-width: 7rem;
+    height: 2em;
+    border-radius: .8rem;
+    transition: 1s all;
+    background-color: #214775;
+    color: rgb(235, 243, 246); 
+    top: 257px;
+    left: -540px;
+    border: none;
+    cursor: pointer;
+}
+
+#comprobar:active {
+    transition: .2s all;
+    background-color: rgb(149, 207, 232);
+    color: #08182b;
+  
+}
+
+input.invalido {
+    outline: solid 2px red;
+  }
+
+#letraMala{
+    position:relative;
+    font-size: 3rem;
+    color: #e02b0b;
+    text-align: center;
+    left: -190px;
+    top: 350px; 
+}
+
+#btnDesistir{
+    position:relative;
+    font-size: 1rem;
+    margin: .5rem ;
+    width: 6rem;
+    min-width: 6rem;
+    height: 2em;
+    border-radius: .8rem;
+    transition: 1s all;
+    background-color: #892f09;
+    color: rgb(235, 243, 246); 
+    top: 203px;
+    left: 5px;
+    border: none;
+    cursor: pointer;
+}
+#btnDesistir:active {
+    transition: .2s all;
+    background-color: rgb(232, 192, 149);
+    color: #08182b;
+  
+}
+
+#nuevoJuego{
+    position:relative;
+    font-size: 1rem;
+    margin: .5rem ;
+    width: 7rem;
+    min-width: 7rem;
+    height: 2em;
+    border-radius: .8rem;
+    transition: 1s all;
+    background-color: #57096f;
+    color: rgb(235, 243, 246); 
+    top: 203px;
+    left: 5px;
+    border: none;
+    cursor: pointer;
+}
+#nuevoJuego:active {
+    transition: .2s all;
+    background-color: rgb(233, 177, 229);
+    color: #08182b;  
+}
+
+footer{   
+    text-align: center;
+    background: white;
+    width: 100%;
+    height: 37px;
+    bottom: 0;
+    position: absolute;
+}
+.copyrigth{
+    color: black;
+    font-size: 13px;
+    margin: 20px;
+}
+
+#logo2{
+    width: 2.8%;
+    position: absolute;
+    bottom: 0px;
+    right: 35%; 
+    display: flex; 
+}

@@ -1,0 +1,75 @@
+html {
+    background-color: hsl(180, 50%, 98%)
+}
+#logo{
+    width: 2%;
+    padding: 20px;
+    padding: 10px; margin: 10px; 
+    float: left;
+}
+.seccion-principal{
+    height: 400px;
+    width: 100%;
+    
+}
+
+#btnUno{
+    position:relative;
+    top: 250px;
+    left: 490px;
+}
+#btn1{
+    position:relative;
+    font-size: 1rem;
+    margin: .5rem ;
+    width: 12rem;
+    min-width: 12rem;
+    height: 3em;
+    border-radius: .8rem;
+    transition: 1s all;
+    background-color: #3041b3;
+    color: rgb(235, 243, 246); 
+    top: 0px;
+    left: 0px;
+    border: none;
+    cursor: pointer;
+}
+#btn1:active {
+    transition: .2s all;
+    background-color: rgb(149, 192, 232);
+    color: #08182b;
+  
+}
+#btn1:hover{
+    transform: scale(1.20) rotate(360deg);
+}
+
+#btnDos{
+    position:relative;
+    top: 330px;
+    left: 278px;
+}
+#btn2{
+    position:relative;
+    font-size: 1rem;
+    margin: .5rem ;
+    width: 12rem;
+    min-width: 12rem;
+    height: 3em;
+    border-radius: .8rem;
+    transition: 1s all;
+    background-color: #812bb3;
+    color: rgb(235, 243, 246); 
+    top: 0px;
+    left: 0px;
+    border: none;
+    cursor: pointer;
+}
+#btn2:active {
+    transition: .2s all;
+    background-color: rgb(239, 153, 233);
+    color: #08182b;  
+}
+#btn2:hover{
+    transform: scale(1.20) rotate(360deg);
+}

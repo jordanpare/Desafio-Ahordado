@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="reset.css">
+    <link rel="stylesheet"  href="stilos.css">
+    <!--<link rel="stylesheet"  href="stilos3.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <title>Juego del Ahorcado</title>
+</head>
+<body>
+    <header>
+        <h1><img id="logo" src="./imagen/Vector.svg"></h1>
+        <h1 id="titulo">Juego del Ahorcado</h1>
+    </header>
+        <section id="salida1" class="lado1">
+        <div id="ahorcado">
+            <img id="pieImgUno" src="./imagen/img11.png">
+            <img id="pieImg" src="./imagen/img00.png">
+            <img id="lintelImgUno" src="./imagen/img1.png">
+            <img id="lintelImgDos" class= "ocultar" src="./imagen/img2.png">
+            <img id="lintelImgTres" class= "ocultar" src="./imagen/img3.png">
+            <img id="lintelImgCuatro" class= "ocultar" src="./imagen/img4.png">
+            <img id="lintelImgCinco" class= "ocultar" src="./imagen/img5.png">
+            <img id="lintelImgSeis" class= "ocultar" src="./imagen/img6.png">
+            <img id="lintelImgSiete" class= "ocultar" src="./imagen/img7.png">
+            <img id="lintelImgOcho" class= "ocultar" src="./imagen/img8.png">
+        </div>
+    </section>
+
+    <section id="salida2" class="lado2">
+
+        <div id="salida">
+            <p id="output"></p>
+        </div>
+        
+        <div id="letraMala">
+            <span id="letraMala1" class= "ocultar" >-</span>
+            <span id="letraMala2" class= "ocultar" >-</span>
+            <span id="letraMala3" class= "ocultar" >-</span>
+            <span id="letraMala4" class= "ocultar" >-</span>
+            <span id="letraMala5" class= "ocultar" >-</span>
+            <span id="letraMala6" class= "ocultar" >-</span>
+            <span id="letraMala7" class= "ocultar" >-</span>
+        </div>
+        <div id="contenedorPalabra" >              
+            <input id="letra" class="area" type="text" maxlength="1" placeholder="Ingrese Letra" oninput="validarTextarea(this)" >
+            <button id="comprobar" disabled>Comprobar</button>
+        </div>
+        <a href="index2.html"><button id="btnDesistir">Desistir</button></a>
+        <button id="nuevoJuego" disabled onclick="location.reload()">NuevoJuego</button>
+    </section>
+
+    <div id="ganador">
+        <p>¡¡¡¡¡Victoria !!!!!</p>
+        <p>¡¡¡ Sos un Ganador !!!</p>
+    </div>
+    <script src="habilitar.js"></script>
+    <script src="javascript.js"></script>
+    <script src="validar.js"></script>
+    
+    <!--<script src="caragarTexto.js"></script>
+    <script src="habilitar3.js"></script>
+    <script src="validar3.js"></script>
+    <script src="tomarPalabra.js"></script>-->
+    <footer>
+        <img id="logo2" src="imagen/jj3.jpg">
+        <p class="copyrigth">&copy Copyrigth Encriptador Jorge Paredes - 2022</p>
+    </footer>
+  </body>
+</html>

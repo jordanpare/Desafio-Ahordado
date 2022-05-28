@@ -1,0 +1,110 @@
+html {
+    background-color: hsl(180, 50%, 98%);
+}
+h1{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#logo{
+    width: 2%;
+    padding: 20px;
+    margin: 10px; 
+    float: left;
+}
+
+.seccion-principal{
+   
+    height: 400px;
+    width: 100%;
+}
+
+.area1{
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+    height: 60%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: hsl(180, 50%, 98%);
+    font-size: 2rem;
+    color: #0a3871;
+    resize: none;
+    border: none;
+    top: 80px;
+  
+    
+}
+
+.area:focus::placeholder{
+    opacity: .3;
+}
+
+.icono{
+    position: absolute;
+    font-size: .8rem;
+    vertical-align: bottom;
+    left: 460px;
+    top: 340px;
+
+
+}
+
+#btnTres{
+    position:relative;
+    top: 120px;
+    left: 405px;
+}
+
+#btn3{
+    position:relative;
+    font-size: 1rem;
+    margin: .5rem ;
+    width: 12rem;
+    min-width: 12rem;
+    height: 3em;
+    border-radius: .8rem;
+    transition: 1s all;
+    background-color: #2c3b9e;
+    color: rgb(235, 243, 246); 
+    top: 7px;
+    left: 0px;
+    border: none;
+    cursor: pointer; 
+}
+#btn3:active {
+    transition: .2s all;
+    background-color: rgb(149, 192, 232);
+    color: #08182b;
+}
+
+#btnCuatro{
+    position:relative;
+    top: 120px;
+    left: 450px;
+}
+#btn4{
+    position:relative;
+    font-size: 1rem;
+    margin: .5rem ;
+    width: 12rem;
+    min-width: 12rem;
+    height: 3em;
+    border-radius: .8rem;
+    transition: 1s all;
+    background-color: #424759;
+    color: rgb(241, 246, 246); 
+    top: 7px;
+    left: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn4:active {
+    transition: .2s all;
+    background-color: rgb(215, 216, 216);
+    color: #1c2024;  
+}
