@@ -26,7 +26,6 @@ function esValido(c) {
     }
   }
 
-
 function limpiarText (){
   var txt='';
   document.querySelector('#letra1').value = '';

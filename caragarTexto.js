@@ -8,5 +8,4 @@ agregar.addEventListener("click", () => {
   palabra1.value = "";
   palabra1.focus();
   console.log(palabras1);
-
 });

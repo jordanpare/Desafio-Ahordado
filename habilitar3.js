@@ -10,5 +10,4 @@ function habilitar3(){
             document.getElementById("btn3").disabled = true;
         }
     }
-
 document.getElementById("letra1").addEventListener("keyup",habilitar3);

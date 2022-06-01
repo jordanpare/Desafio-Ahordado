@@ -15,14 +15,12 @@ h1{
     float: left;
 }
 
-#pieImg{
-   
+#pieImg{   
     position:absolute;
     left: 100px;       
 }
 
-#pieImgUno{    
-   
+#pieImgUno{  
     position:relative;
     left: 100px;
 }
@@ -30,9 +28,6 @@ h1{
 #lintelImgUno{    
     position:relative;
     left: -10px;
-    
-    /*left: -285px;
-    bottom: 355px;*/
 }
 
 #lintelImgDos{    
@@ -115,6 +110,7 @@ h1{
     float: left;
     width: 50%;
 }
+
 .lado2{
     float: right;
     width: 40%;
@@ -128,9 +124,9 @@ h1{
     padding: 5px;
     background-color: white;
     font-size: 1rem;
-    color: #0a3871;
-    
+    color: #0a3871; 
 }
+
 #letra{
     position:relative;
     text-align: center;
@@ -164,7 +160,6 @@ h1{
     transition: .2s all;
     background-color: rgb(149, 207, 232);
     color: #08182b;
-  
 }
 
 input.invalido {
@@ -196,11 +191,11 @@ input.invalido {
     border: none;
     cursor: pointer;
 }
+
 #btnDesistir:active {
     transition: .2s all;
     background-color: rgb(232, 192, 149);
     color: #08182b;
-  
 }
 
 #nuevoJuego{
@@ -219,6 +214,7 @@ input.invalido {
     border: none;
     cursor: pointer;
 }
+
 #nuevoJuego:active {
     transition: .2s all;
     background-color: rgb(233, 177, 229);

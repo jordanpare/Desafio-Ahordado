@@ -9,7 +9,5 @@ function habilitar(){
         }else{
             document.getElementById("comprobar").disabled = true;
         }
-
     }
-
 document.getElementById("letra").addEventListener("keyup",habilitar);

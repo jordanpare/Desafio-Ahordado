@@ -34,9 +34,7 @@ h1{
     color: #0a3871;
     resize: none;
     border: none;
-    top: 80px;
-  
-    
+    top: 80px;    
 }
 
 .area:focus::placeholder{
@@ -49,8 +47,6 @@ h1{
     vertical-align: bottom;
     left: 460px;
     top: 340px;
-
-
 }
 
 #btnTres{
