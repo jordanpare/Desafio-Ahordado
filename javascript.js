@@ -27,7 +27,12 @@ document.querySelector('#comprobar').addEventListener('click', function(){
             contadorFallos++;
             borraeOcultar(contadorFallos);
             if(contadorFallos ==7){
-                alert(':( PERDISTE !!! La Palabra era: '+ palabra);
+                swal({
+                    title: "PERDISTE !!!",
+                    text: `La palabra era: ${palabra}`,
+                    icon: "error",
+                   })
+                //alert(':( PERDISTE !!! La Palabra era: '+ palabra);
                 if(alert){
                     document.getElementById("comprobar").disabled = true;
                     document.getElementById("nuevoJuego").disabled = false;
